@@ -1,7 +1,7 @@
 import pika
 import json
 from faker import Faker
-from contact_model import Contact  
+from authors_and_quotes import Contact  
 
 
 connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))

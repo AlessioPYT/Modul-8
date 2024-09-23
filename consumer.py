@@ -1,6 +1,6 @@
 import pika
 import json
-from contact_model import Contact
+from authors_and_quotes import Contact
 
 connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
 channel = connection.channel()
